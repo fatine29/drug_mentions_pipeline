@@ -1,0 +1,6 @@
+pandas>=1.5.0
+jsonlib>=1.6.1
+pytest>=7.0.0
+
+# Pour exécuter un DAG localement
+apache-airflow==2.9.0

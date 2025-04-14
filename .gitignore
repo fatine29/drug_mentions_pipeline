@@ -1,0 +1,10 @@
+# Environnements
+venv/
+__pycache__/
+
+# Données (non versionnées)
+data/
+output/
+
+# Fichiers système
+.DS_Store
