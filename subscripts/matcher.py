@@ -1,8 +1,10 @@
 from collections import defaultdict
 
+# Normalisation du texte
 def normalize_text(text):
     return text.lower() if isinstance(text, str) else ""
 
+# Identification des publications dans lesquelles apparaissent le nom du médicament
 def match_drugs_to_publications(drugs, pubmed, clinical_trials):
     drug_mentions = defaultdict(lambda: {
         "drug": "",

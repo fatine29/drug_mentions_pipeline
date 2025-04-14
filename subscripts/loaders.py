@@ -1,5 +1,6 @@
 import pandas as pd
 
+# Chargement des données
 def load_data(path_drugs, path_pubmed_csv, path_pubmed_json, path_clinical_trials):
     drugs = pd.read_csv(path_drugs)
     pubmed_csv = pd.read_csv(path_pubmed_csv)
