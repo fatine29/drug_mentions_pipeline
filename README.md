@@ -14,7 +14,7 @@ Ce projet a pour but de construire une **data pipeline en Python** permettant de
 Voici la structure du dossier à avoir en local pour faire tourner le script
 
 ```
-data_pipeline_project/
+data_pipeline_servier_project/
 ├── data/                    # Données source (dossier non versionné dans Git, à ajouter au dossier)
 ├── output/                  # JSON généré (également non versionné, à ajouter au dossier)
 ├── drug_mentions_pipeline   # Dossier cloné
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Exécution de la pipeline
 
-Place les fichiers dans le dossier `data/`, puis exécute :
+Placer les fichiers dans le dossier `data/`, puis exécuter :
 
 ```bash
 python main.py
